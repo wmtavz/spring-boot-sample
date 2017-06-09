@@ -1,3 +1,4 @@
-insert into city (id, name) values(1, 'Tokyo');
-insert into city (id, name) values(2, 'New York');
-insert into city (id, name) values(3, 'London');
+TRUNCATE TABLE CITY;
+INSERT INTO CITY (ID,COUNTRY_CODE, NAME) VALUES(1,'JPN', 'TOKYO');
+INSERT INTO CITY (ID,COUNTRY_CODE, NAME) VALUES(2,'USA', 'NEW YORK');
+INSERT INTO CITY (ID,COUNTRY_CODE, NAME) VALUES(3,'GBR', 'LONDON');

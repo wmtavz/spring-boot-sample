@@ -1,1 +1,4 @@
-create table city(id int, name varchar(20));
+CREATE TABLE IF NOT EXISTS CITY
+(ID INT,
+COUNTRY_CODE CHAR(3)
+,NAME VARCHAR(20));
